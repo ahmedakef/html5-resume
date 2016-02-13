@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@font-face {
+  font-family: 'flat';
+  src: url("../fonts/JF Flat regular.ttf");
+  font-style: normal; 
+}   
+
+body{
+	font-family: Droid Arabic Kufi,flat , serif;
+	background-color: #ecf0f1;
+	direction: rtl;
+	margin: 0px;
+}
+header{
+  width:100%;
+  height:90px;
+  background-color:#34495e;
+  padding-top: 10px;
+}
+header img{
+	width: auto;
+	height: 80px;
+	display: block;
+	margin: auto;
+	position: relative;
+    top: -100px;
+    right: 235px;
+    border-radius: 40px;
+}
+h1,h2{
+  color:#ecf0f1;
+  text-align:center;
+}
+nav{
+	background-color: #bdc3c7;
+	width: 20%;
+	height: 410px;
+	float: right;
+}
+nav ul{
+	list-style-type: none;
+	padding-top:20px; 
+	padding-right: 0px;
+	padding-bottom:30px; 
+	margin: 0px;
+	color: #34495E;
+	font-weight: bold;
+}
+nav ul li{
+	margin-top: 13px;
+	font-size: 20px;
+}
+nav ul li a{
+	display: block;
+	text-align: center;
+	margin-top: -10px;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+nav ul li a:hover{
+	background-color: #95a5a6;
+}
+nav ul li a:visited,nav ul li a:link{
+	color: #34495E;
+}
+
+iframe{
+	border:none;
+	height: 400px;
+	width: 80%;
+}
+footer{
+	background-color: #2c3e50; 
+	height: 100px;
+	padding-top: 15px;
+	clear: both;
+}
+footer a{
+	position: relative;
+	top: -25px;
+	right: 10px;
+}

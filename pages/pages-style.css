@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@font-face {
+  	font-family: 'flat';
+  	src: url("JF Flat regular.ttf");
+	font-style: normal; }
+body {
+  		font-family: Droid Arabic Kufi,flat , serif;
+  		direction: rtl;
+  	}
+
+/* skills */  	
+ul{
+	list-style-type: none;
+}
+
+li{
+	height: 40px;
+	width: 240px;
+	color: #ecf0f1;
+	background-color: #2980b9;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 15px;
+	padding: 6px;
+	position: relative;
+	transition :all 1s;
+
+}
+li:hover{
+	width: 280px;
+}
+ul li span{
+	position: absolute;
+	left: 10px;
+}
+
+/* software */
+
+.imgs>div {
+    margin: 22px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+    height: 200px;
+    padding-top: 15px;
+    transition:all .5s;
+}
+
+.imgs>div:hover {
+    background-color: #d6dce0;
+}
+
+.imgs>div img {
+    width: 100%;
+    height: auto;
+}
+
+/* contact from w3 schools with alot of edit http://www.w3schools.com/css/css_form.asp */
+label{
+	display: inline-block;
+	width: 20%;
+}
+input[type=text],input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid #ccc;
+    background-color: #ecf0f1;
+    transition:all .5s;
+}
+input[type=text]:focus,input[type=email]:focus {
+    border: 3px solid #7f8c8d;
+    width: 60%;
+}
+textarea {
+	width: 40%;
+	height: 100px;
+    padding: 12px 20px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+    transition:all .5s;
+}
+textarea:focus{
+	width: 60%;
+	border: 3px solid #7f8c8d;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #2980b9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
